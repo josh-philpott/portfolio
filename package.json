@@ -10,7 +10,8 @@
     "start": "gatsby serve --port ${PORT}",
     "develop": "gatsby develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "heroku-postbuild": "gatsby build"
   },
   "dependencies": {
     "flexboxgrid": "^6.3.1",
